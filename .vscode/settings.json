@@ -1,0 +1,53 @@
+{
+	"liveServer.settings.multiRootWorkspaceName": "QuickMemorize",
+	"liveServer.settings.root": "/src/",
+	"es6-css-minify.enableAutoprefixer": true,
+	"es6-css-minify.enableAutoprefixerSelection": true,
+	"es6-css-minify.uglifyConfigFile": ".terserrc",
+	"es6-css-minify.genJSmap": null,
+	"es6-css-minify.autoprefixer": {
+		"grid": "autoplace",
+		"remove": false,
+		"overrideBrowserslist": ["> 0%"]
+	},
+	"es6-css-minify.js": {
+		"compress": {
+			"arguments": true,
+			"booleans_as_integers": true,
+			"hoist_funs": true,
+			"hoist_vars": true,
+			"keep_fargs": false,
+			"keep_infinity": true,
+			"passes": 3,
+			"unsafe_Function": true,
+			"unsafe_comps": true,
+			"unsafe_methods": true,
+			"unsafe_proto": true,
+			"unsafe_undefined": true
+		},
+		"ecma": 8,
+		"module": true,
+		"parse": {
+			"html5_comments": false
+		},
+		"sourceMap": true
+	},
+	"es6-css-minify.css": {
+		"level": 2,
+		"sourceMap": true
+	},
+	"liveServer.settings.mount": [["/src", "/"]],
+	"vscode-edge-devtools.showWorkers": true,
+	"vscode-edge-devtools.sourceMapPathOverrides": {
+		"webpack:///./*": "${webRoot}/*",
+		"webpack:///src/*": "${webRoot}/*",
+		"webpack:///*": "*",
+		"webpack:///./~/*": "${webRoot}/node_modules/*",
+		"webpack://*": "${webRoot}/*",
+		"meteor://💻app/*": "${webRoot}/*"
+	},
+	"vscode-edge-devtools.standaloneScreencast": false,
+	"vscode-edge-devtools.themes": "System Preference",
+	"vscode-edge-devtools.webRoot": "${workspaceFolder}/src/",
+	"vscode-edge-devtools.welcome": false
+}
