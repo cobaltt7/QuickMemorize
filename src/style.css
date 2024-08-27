@@ -1,0 +1,114 @@
+@import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
+@import "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* display */
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+	/* box */
+	min-width: 18em;
+	width: 50%;
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+
+	/* typography */
+	font-family: "Lato", sans-serif;
+
+	/* manipulation */
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Comfortaa", cursive;
+}
+
+a {
+	color: rgb(29 78 216);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(30 58 138);
+}
+
+textarea {
+	/* display */
+	display: block;
+
+	/* box */
+	width: 100%;
+	min-height: 6em;
+	height: 90%;
+
+	/* miscellaneous */
+	resize: none;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+	/* box */
+	width: 100%;
+	padding: 0.5em;
+	border: none;
+	border-radius: 5px;
+	margin: auto;
+	background-color: rgb(29 78 216);
+
+	/* typography */
+	color: white;
+	font-family: "Comfortaa", cursive;
+	font-size: 1.2rem;
+
+	/* miscellaneous */
+	cursor: pointer;
+}
+
+[data-step] {
+	/* display */
+	display: none;
+	flex-direction: column;
+	align-items: center;
+
+	/* box */
+	width: 100%;
+	height: 100%;
+}
+
+[data-step="1"] {
+	height: 66%;
+}
+
+form {
+	/* display */
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+
+	/* box */
+	width: 100%;
+	height: 100%;
+}

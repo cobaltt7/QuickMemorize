@@ -4,14 +4,31 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>QuickMemorize</title>
-		<link rel="stylesheet" href="./styles.min.css" />
+		<link rel="stylesheet" href="./style.min.css" />
 		<script type="module" src="./script.min.js"></script>
 	</head>
 	<body>
 		<h1>QuickMemorize</h1>
-		<form>
-			<textarea id="text" placeholder="Text to memorize"></textarea>
-			<input type="submit" />
-		</form>
+		<div data-step="1" style="display: flex">
+			<h2>Step 1: Input your text</h2>
+			<form>
+				<textarea required placeholder="Text to memorize"></textarea>
+				<button type="submit">Next</button>
+			</form>
+		</div>
+		<div data-step="2">
+			<h2>Step 2: Review your text</h2>
+			<h3>Take a good look so you can remember it!</h3>
+			<p id="text"></p>
+			<button type="submit">Next</button>
+		</div>
+		<div data-step="3">
+			<h2>Step 3: Memorize!</h2>
+			<h3>Complete the line:</h3>
+<form>
+	<input type="text" value="" title="line">
+	<button type="submit">Next</button>
+</form>
+		</div>
 	</body>
 </html>
